@@ -4,7 +4,7 @@
 
 ### Last updated: 12 Apr. 2017
 
-This program creates a 5x5 grid of nodes.  Each node has four edge members, left, right, up, and down, which connect to it's neighboring nodes, as well as a position member, which holds the numerical position of the node in the graph.  Every edge is bidirectional and is implemented as a node pointer.  After initializing the memory manager grid, the program deletes a node at random, including the pointers going to and from that node, and continues to do so until the grid is empty.  If at any point, a node has no edges connecting it to another node, then that node is deleted as well.
+This program creates a 5x5 grid of nodes.  Each node has four bidirectional edge members, left, right, up, and down, which connect to it's neighboring nodes, as well as a position member, which holds the numerical position (1-25) of the node in the graph.  After initializing the grid, the program deletes a node at random, including the edges going to and from that node, and continues to do so until the grid is empty.  If at any point a node has no edges connecting it to another node, then that node is deleted as well.
 
 To test the program:
 1. In the root project directory, compile the program using:
