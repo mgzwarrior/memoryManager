@@ -1,5 +1,4 @@
-CSC 314 - Operating Systems
-Assignment 0 - Memory Manager
+###Memory Manager
 Created by: Matt Grant
 Last updated: 12 Apr. 2017
 
